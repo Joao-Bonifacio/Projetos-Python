@@ -1,7 +1,7 @@
 def first():
     global archive
     archive = True
-    #tipo de sala de sinal
+    #tipo de gerenciamento
     tipo = input('Operações => com Martingale(G) | com mão Fixa(F) | com Soros? (S): ')
     if (tipo == 'g' or tipo == 'G'):
         tipo = '1'
